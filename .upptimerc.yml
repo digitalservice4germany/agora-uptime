@@ -12,6 +12,16 @@ sites:
     assignees:
       - zechmeister
 
+  - name: Forum
+    url: $FORUM_URL
+    icon: https://nutzerinnenverwaltung.agora-oegd.de/auth/resources/72dib/login/agora/img/favicon.ico
+    __dangerous__disable_verify_peer: true
+    expectedStatusCodes:
+      - 200
+      - 302
+    assignees:
+      - zechmeister
+
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
@@ -27,3 +37,4 @@ status-website:
       href: https://github.com/digitalservice4germany`
     - title: Infos
       href: https://onboarding.agora-oegd.de
+`
