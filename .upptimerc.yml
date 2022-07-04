@@ -1,4 +1,4 @@
-owner: digitalservice4germany
+owner: digitalservicebund
 repo: agora-uptime
 
 sites:
@@ -63,6 +63,6 @@ status-website:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/digitalservice4germany`
+      href: https://github.com/digitalservicebund`
     - title: Infos
       href: https://onboarding.agora-oegd.de
